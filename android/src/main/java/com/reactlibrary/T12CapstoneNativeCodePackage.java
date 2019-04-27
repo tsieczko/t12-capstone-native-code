@@ -17,11 +17,6 @@ public class T12CapstoneNativeCodePackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new T12CapstoneNativeCodeModule(reactContext));
     }
 
-    // Deprecated from RN 0.47
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-      return Collections.emptyList();
-    }
-
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
       return Collections.emptyList();
